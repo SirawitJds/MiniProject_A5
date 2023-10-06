@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Athiti:wght@200&family=IBM+Plex+Sans+Thai:wght@100&family=Kanit:wght@100&family=Outfit:wght@700&family=Roboto:wght@100;300&display=swap");
+* {
+  font-family: "Athiti", sans-serif;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.login-container {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-form {
+  width: 40%;
+  padding: 25px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-style: none;
+  border-radius: 20px;
+  box-shadow: 1px 3px 29px -3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 3px 29px -3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 3px 29px -3px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 1000;
+  margin: 5px;
+}
+
+.login-content {
+  width: 100%;
+}
+.signin-button {
+  margin-top: 15px;
+}
+
+.passwordBox {
+  position: relative;
+}
+.eye {
+  position: absolute;
+  right: 5%;
+  top: 43%;
+  z-index: 9999;
+}
