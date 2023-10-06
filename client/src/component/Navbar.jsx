@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import Button from "@mui/material/Button";
 
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const navigater = useNavigate();
 
@@ -10,11 +10,11 @@ const Navbar = () => {
     <>
       <nav>
         <div className="nav-logo">Buisness Alive</div>
-        <div className="content">Option</div>
-        <div className="content">Option</div>
-        <div className="content">Option</div>
-        <div className="content">Option</div>
-        <div className="content">Option</div>
+        <div className="nav-link">Option</div>
+        <div className="nav-link">Option</div>
+        <div className="nav-link">Option</div>
+        <div className="nav-link">Option</div>
+        <div className="nav-link">Option</div>
         <div className="buttonGroup">
           <Button
             color="error"

@@ -26,15 +26,15 @@ nav {
 }
 
 .buttonGroup {
-  flex-grow: 1;
   display: flex;
+  flex-grow: 1;
   align-items: center;
   justify-content: end;
   gap: 10px;
   margin-right: 25px;
 }
 
-.content {
+.nav-link {
   margin: 15px;
   color: white;
   display: flex;
